@@ -1,12 +1,12 @@
-import React from 'react'
-import Sidebar from './Components/Sidebar'
+import './App.css';
+import Layout from './pages/Layout';
 
-const App = () => {
+function App() {
   return (
-    <div>
-      <Sidebar/>
+    <div className="App">
+      <Layout/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
