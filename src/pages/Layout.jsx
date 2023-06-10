@@ -15,14 +15,14 @@ import Contact from "./Contact";
 import About from "./About";
 import Sitemap from "./Sitemap";
 import Policy from "./Policy";
+import Footer from "../components/Footer";
 
 const Layout = () => {
 
-
-
   return (
     <>
-      <div className="flex md:flex-row flex-col">
+    <div>
+    <div className="flex md:flex-row flex-col">
           
           <Navbar/>
         
@@ -42,14 +42,15 @@ const Layout = () => {
             <Route path="/sitemap" element={<Sitemap/>}/>
             <Route path="/policy" element={<Policy/>}/>
             <Route path="/contact" element={<Contact/>}/>
-          
-
-
           </Routes>
-  
-        
+          
         </div>
       </div>
+    <div className="maincomponent md:w-full  m-auto p-10">
+        <Footer/>
+          </div>
+    </div>
+     
     </>
   );
 };

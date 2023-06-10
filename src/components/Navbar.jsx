@@ -101,7 +101,7 @@ const Navbar = () => {
             <div className="logo">
               
             <h4 className=" text-left font-bold text-xl text-white  mt-8">Connect</h4>
-            <img  alt="social"src="/social.png" className="w-1/2" />
+            <img  alt="social"src="/social.png" className="w-2/3" />
             </div>
            
           </div>
