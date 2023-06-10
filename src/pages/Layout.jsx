@@ -1,6 +1,5 @@
 import React from "react";
 
-import Dashboard from "./Dashboard";
 import Navbar from "../components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Iprint from "./Iprint";
