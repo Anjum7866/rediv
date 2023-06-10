@@ -16,9 +16,9 @@ const Navbar = () => {
       <div
         className={`sidebar ${
           sidebar ? "" : "max-md:hidden"
-        }  bg-black w-100 md:w-2/12  md:h-[100vh] rounded-md `}
+        }  bg-black w-100 md:w-2/12  md:h-[150vh] rounded-md `}
       >
-        <div className="fixed md:w-2/12 p-3 bg-black h-screen rounded-md">
+        <div className=" absolute md:w-2/12 p-3 h-1/2vh bg-black h-screen rounded-md mt-5">
           <div className="flex items-center justify-between">
             <div className="logo">
               <img src="/logonew.png" className="w-full" alt="" />
@@ -46,7 +46,21 @@ const Navbar = () => {
             <span className="font-semibold ">Real Time Tracking System</span>
           </NavLink>
 
-          <h4 className=" text-left font-bold text-xl text-white mt-2">Services</h4>
+          
+
+          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">Reosys Billing System</span>
+          </NavLink>
+
+          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">Reosys Inventory System</span>
+          </NavLink>
+
+          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">HRMS</span>
+          </NavLink>
+
+          <h4 className=" text-left font-bold text-xl text-white  mt-8">Services</h4>
 
           <NavLink to={"/dotnet"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Dot net development</span>
@@ -60,12 +74,16 @@ const Navbar = () => {
             <span className="font-semibold ">Mobile Development</span>
           </NavLink>
 
+          <NavLink to={"/mobile"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">Consultancy Services</span>
+          </NavLink>
+
           <NavLink to={"/industry"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Industry Services</span>
           </NavLink>
 
           
-          <h4 className=" text-left font-bold text-xl text-white mt-2">About</h4>
+          <h4 className=" text-left font-bold text-xl text-white  mt-8">About</h4>
 
           <NavLink to={"/about"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">About Us</span>
@@ -82,7 +100,7 @@ const Navbar = () => {
            <div className="flex items-center justify-between">
             <div className="logo">
               
-            <h4 className=" text-left font-bold text-xl text-white mt-2">Connect</h4>
+            <h4 className=" text-left font-bold text-xl text-white  mt-8">Connect</h4>
             <img  alt="social"src="/social.png" className="w-1/2" />
             </div>
            
