@@ -15,8 +15,8 @@ import Contact from "./Contact";
 import About from "./About";
 import Sitemap from "./Sitemap";
 import Policy from "./Policy";
-import Footer from "../components/Footer";
 
+import Footer from "../components/Footer";
 const Layout = () => {
 
   return (
@@ -45,7 +45,7 @@ const Layout = () => {
           
         </div>
       </div>
-    <div className="maincomponent md:w-full  m-auto p-10">
+    <div className="maincomponent w-full ">
         <Footer/>
           </div>
    

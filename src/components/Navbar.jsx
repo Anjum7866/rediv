@@ -14,17 +14,12 @@ const Navbar = () => {
       </p>
       
       <div
-        className={`sidebar ${sidebar ? "" : "max-md:hidden"}
-         bg-black w-full md:w-2/12 top-0 overflow-y-auto rounded-md`}
-      >
-
-      {/* <div
         className={`sidebar ${
           sidebar ? "" : "max-md:hidden"
-        }  bg-black w-full md:w-2/12  rounded-md `}
-      > */}
-        <div className=" absolute mt-5 md:w-2/12 p-3  bg-black h-screen rounded-md">
-          <div className="flex items-center justify-between">
+        }  bg-black w-100 md:w-2/12  md:h-[100vh] rounded-md `}
+      >
+        <div className="fixed md:w-2/12 p-3 bg-black h-screen rounded-md">
+        <div className="flex items-center justify-between">
             <div className="logo">
               <img src="/logonew.png" className="w-full" alt="" />
             </div>
@@ -88,7 +83,7 @@ const Navbar = () => {
           </NavLink>
 
           
-          <h4 className=" text-left font-bold text-xl text-white  mt-5">About</h4>
+          {/* <h4 className=" text-left font-bold text-xl text-white  mt-5">About</h4>
 
           <NavLink to={"/about"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">About Us</span>
@@ -100,9 +95,9 @@ const Navbar = () => {
 
           <NavLink to={"/policy"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Privacy Policy</span>
-          </NavLink>
+          </NavLink> */}
 
-           <div className="flex items-center justify-between">
+           {/* <div className="flex items-center justify-between">
             <div className="logo">
               
             <h4 className=" text-left font-bold text-xl text-white  mt-5">Connect</h4>
@@ -110,7 +105,7 @@ const Navbar = () => {
             </div>
            
           </div>
-          
+           */}
 
         </div>
       </div>
