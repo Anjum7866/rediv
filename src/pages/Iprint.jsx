@@ -20,9 +20,7 @@ const Iprint = () => {
         <h2>Redivivus Technology Private Limited</h2>
         <p> is a software product development and services company, serving its customer and clients from its global delivary centre in Pune,India.
 Redivius is focused to develop the various technical solutions for industrial automation, printing and inspection , image processing,data management.a software  product development and services company, serving its customer and clients from its global delivary centre in Pune,India.
-Redivius is focused to develop the various technical solutions for industrial automation, printing and inspection , image processing,data management.a software product development and services company, serving its customer and clients from its global delivary centre in Pune,India.
-Redivius is focused to develop the various technical solutions for industrial automation, printing and inspection , image processing,data management.a software </p>
-      </div>
+</p>      </div>
 
 
 

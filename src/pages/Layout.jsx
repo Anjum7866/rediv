@@ -21,11 +21,10 @@ const Layout = () => {
 
   return (
     <>
-    <div>
-    <div className="flex md:flex-row flex-col">
-          
+   
+    <div className="flex md:flex-row flex-col  min-h-screen ">
           <Navbar/>
-        
+          
         <div className="maincomponent md:w-10/12 w-full ">
 
           <Routes>
@@ -49,7 +48,7 @@ const Layout = () => {
     <div className="maincomponent md:w-full  m-auto p-10">
         <Footer/>
           </div>
-    </div>
+   
      
     </>
   );
