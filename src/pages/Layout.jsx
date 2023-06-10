@@ -29,7 +29,7 @@ const Layout = () => {
         <div className="maincomponent md:w-10/12 w-full ">
 
           <Routes>
-            <Route path="/" element={<Dashboard/>}/>
+            <Route path="/hrms" element={<Dashboard/>}/>
             <Route path="/iPrint" element={<Iprint/>}/>
             <Route path="/wimaRT" element={<Wimart/>}/>
             <Route path="/management" element={<Management/>}/>
