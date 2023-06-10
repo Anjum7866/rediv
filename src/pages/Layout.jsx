@@ -17,6 +17,7 @@ import Sitemap from "./Sitemap";
 import Policy from "./Policy";
 
 import Footer from "../components/Footer";
+import Hrms from "./Hrms";
 const Layout = () => {
 
   return (
@@ -41,6 +42,7 @@ const Layout = () => {
             <Route path="/sitemap" element={<Sitemap/>}/>
             <Route path="/policy" element={<Policy/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/hrms" element={<Hrms/>}/>
           </Routes>
           
         </div>

@@ -56,7 +56,7 @@ const Navbar = () => {
             <span className="font-semibold ">Inventory</span>
           </NavLink>
 
-          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+          <NavLink to={"/hrms"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">HRMS</span>
           </NavLink>
 
