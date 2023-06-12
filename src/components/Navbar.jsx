@@ -24,12 +24,13 @@ const Navbar = () => {
               <img src="/logonew.png" className="w-full" alt="" />
             </div>
             <div className="text-right">
-              <h1 className="text-blue-500 text-opacity-75 text-2xl text-shadow-md font-extrabold ">
+              <h1 className="text-blue-500 text-opacity-75 text-2xl text-shadow-md font-style-oblique
+               font-extrabold ">
                 Redivivus</h1>
             </div>
           </div>
           <h4 className=" text-left font-bold text-xl text-white">Products</h4>
-
+            
           <NavLink to={"/iPrint"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">iPRINT</span>
           </NavLink>
@@ -126,8 +127,8 @@ const NavLink = ({ to, children, ...props }) => {
       <span
       {...props}
         className={`tab  w-11/12 my-2 ${
-            isActive ? "bg-primary-500 text-white" : "text-white"
-        }  rounded-lg flex m-auto `}
+            isActive ? "bg-blue-400 bg-opacity-50 text-white" : "text-white"
+        }  rounded-excess flex m-auto `}
         >
         {children}
       </span>
