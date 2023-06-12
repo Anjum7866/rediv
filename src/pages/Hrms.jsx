@@ -1,11 +1,11 @@
 import React from 'react'
 import Title from '../components/Title';
 
-const Iprint = () => {
+const Hrms = () => {
   return (
     <>
     <div className="p-2 md:p-6 ">
-      <Title title={'Iprint'}/>
+      <Title title={'Human Resource Management System'}/>
       <div>
       <img src="/hrms.png"  className="w-full mt-4 " alt="" />
       </div>
@@ -29,4 +29,4 @@ Payroll Management: HRMS simplifies payroll processing by automating calculation
   )
 }
 
-export default Iprint
+export default Hrms

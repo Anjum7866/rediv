@@ -1,6 +1,5 @@
 import React from "react";
 
-import Dashboard from "./Dashboard";
 import Navbar from "../components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Iprint from "./Iprint";
@@ -15,21 +14,21 @@ import Contact from "./Contact";
 import About from "./About";
 import Sitemap from "./Sitemap";
 import Policy from "./Policy";
-import Footer from "../components/Footer";
 
+import Footer from "../components/Footer";
+import Hrms from "./Hrms";
 const Layout = () => {
 
   return (
     <>
-    <div>
-    <div className="flex md:flex-row flex-col">
-          
+   
+    <div className="flex md:flex-row flex-col  min-h-screen ">
           <Navbar/>
-        
+          
         <div className="maincomponent md:w-10/12 w-full ">
 
           <Routes>
-            <Route path="/" element={<Dashboard/>}/>
+            {/* <Route path="/hrms" element={<Dashboard/>}/> */}
             <Route path="/iPrint" element={<Iprint/>}/>
             <Route path="/wimaRT" element={<Wimart/>}/>
             <Route path="/management" element={<Management/>}/>
@@ -42,14 +41,15 @@ const Layout = () => {
             <Route path="/sitemap" element={<Sitemap/>}/>
             <Route path="/policy" element={<Policy/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/" element={<Hrms/>}/>
           </Routes>
           
         </div>
       </div>
-    <div className="maincomponent md:w-full  m-auto p-10">
+    <div className="maincomponent w-full ">
         <Footer/>
           </div>
-    </div>
+   
      
     </>
   );
