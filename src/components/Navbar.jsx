@@ -48,11 +48,11 @@ const Navbar = () => {
 
           
 
-          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+          <NavLink to={"/billing"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Billing</span>
           </NavLink>
 
-          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
+          <NavLink to={"/inventory"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Inventory</span>
           </NavLink>
 
@@ -74,7 +74,7 @@ const Navbar = () => {
             <span className="font-semibold ">Mobile</span>
           </NavLink>
 
-          <NavLink to={"/mobile"} onClick={()=>setSidebar(false)}>
+          <NavLink to={"/cunultancy"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Consultancy</span>
           </NavLink>
 
