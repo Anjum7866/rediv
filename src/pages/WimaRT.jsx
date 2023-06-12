@@ -5,7 +5,7 @@ const Wimart = () => {
   return (
     <>
     <div className="p-2 md:p-6 ">
-      <Title title={'wimaRT'}/>
+      <Title title={'wimaRT Warehouse item'}/>
 
       <div className="stats flex md:flex-row flex-col">
           
