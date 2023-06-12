@@ -5,7 +5,7 @@ const Footer = () => {
   const email = 'e@redivivus.tech';
 
   return (
-    <div className="h-40 bg-blue-400 opacity-50 p-5 flex flex-col justify-center">
+    <div className="h-20 bg-gray-300 p-5 flex flex-col justify-center">
   <div className="w-full">
   <span className="px-4 py-2 text-black m-4 mr-2 font-semibold text-lg">English</span>
   </div>
