@@ -138,7 +138,7 @@ const NavLink = ({ to, children, ...props }) => {
       <span
       {...props}
         className={`tab  w-11/12 my-2 ${
-            isActive ? "bg-primary-500 text-white" : "text-white"
+            isActive ? "bg-blue-400 opacity-50 text-white" : "text-white"
         }  rounded-lg flex m-auto `}
         >
         {children}

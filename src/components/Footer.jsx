@@ -5,7 +5,7 @@ const Footer = () => {
   const email = 'e@redivivus.tech';
 
   return (
-    <div className="h-25 bg-gray-300 p-5 flex flex-col justify-center">
+    <div className="h-20 bg-blue-400 opacity-50 p-5 flex flex-col justify-center">
   <div className="w-full">
   <a className="font-semibold  text-lg" href={`mailto:${email}`}>Get In Touch</a>
   
