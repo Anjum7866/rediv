@@ -11,10 +11,10 @@ const Footer = () => {
   
  <Link to={"/policy"} >
             <span className="font-semibold ml-5  text-lg ">Privacy Policy</span>
-          </Link> <span className="px-4 py-2 m-4 mr-2 font-semibold text-lg">Intrest-Based ads </span>
-  </div>
+          </Link> 
+          </div>
   <div className="w-full">
-    <span className="px-4 py-2 text-black m-4 mr-2 font-semibold text-lg">2023 Redivivus Inc</span>
+    <span className="px-4 py-2 text-black m-4 mr-2 font-semibold text-sm">Copyright © 2023 All Rights Reserved | Redivivus Technologies Private Limited | WWW.REDIVS.COM</span>
   </div>
   <div className="w-full">
     <span className="px-4 py-2 text-black m-4 mr-2 font-regular text-sm flex-end">developed by Anjum Shaikh</span>

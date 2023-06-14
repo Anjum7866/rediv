@@ -38,16 +38,9 @@ const Navbar = () => {
             <span className="font-semibold ">wimaRT </span>
           </NavLink>
 
-          <NavLink to={"/management"} onClick={()=>setSidebar(false)}>
-            <span className="font-semibold ">Management</span>
+          <NavLink to={"/batch"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">Batch </span>
           </NavLink>
-
-          <NavLink to={"/tracking"} onClick={()=>setSidebar(false)}>
-            <span className="font-semibold ">RT Tracking</span>
-          </NavLink>
-
-          
-
           <NavLink to={"/billing"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Billing</span>
           </NavLink>
@@ -55,9 +48,15 @@ const Navbar = () => {
           <NavLink to={"/inventory"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Inventory</span>
           </NavLink>
+          <NavLink to={"/erp"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">ERP</span>
+          </NavLink>
 
           <NavLink to={"/"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">HRMS</span>
+          </NavLink>
+          <NavLink to={"/automation"} onClick={()=>setSidebar(false)}>
+            <span className="font-semibold ">Automation</span>
           </NavLink>
 
           <h4 className=" text-left font-bold text-xl text-white  mt-5">Services</h4>
@@ -74,14 +73,27 @@ const Navbar = () => {
             <span className="font-semibold ">Mobile</span>
           </NavLink>
 
-          <NavLink to={"/cunultancy"} onClick={()=>setSidebar(false)}>
+          <NavLink to={"/consultancy"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Consultancy</span>
           </NavLink>
 
           <NavLink to={"/industry"} onClick={()=>setSidebar(false)}>
             <span className="font-semibold ">Industry</span>
           </NavLink>
+          <h4 className=" text-left font-bold text-xl text-white  mt-5">Connect</h4>
+<div class="flex">
+  <a href="https://www.facebook.com/Redivivus-Technologies-Private-LimitedPune-1652894798268717/">
+  <img  alt="social"src="/fb.png" className="w-1/2" />
+  </a>
+  <a href="https://twitter.com/search?f=tweets&q=redivivus%20technologies%20private%20limited&src=typd">
+  <img  alt="social"src="/twitter.png" className="w-full" />        
+  </a>
+  <a href="https://www.linkedin.com/company/redivivus-technologies-private-limited">
+  <img alt="social"src="/linkedin.png" className="w-1/2" />
+  </a>
 
+          
+</div>
           
           {/* <h4 className=" text-left font-bold text-xl text-white  mt-5">About</h4>
 
