@@ -5,7 +5,7 @@ const Policy = () => {
   return (
     <>
     <div className="p-2 md:p-6 ">
-      <Title title={'Policy'}/>
+      <Title title={'Privacy Policy'}/>
 
       <div className="stats flex md:flex-row flex-col">
           

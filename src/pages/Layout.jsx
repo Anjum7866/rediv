@@ -4,7 +4,6 @@ import Navbar from "../components/Navbar";
 import { Route, Routes } from "react-router-dom";
 import Iprint from "./Iprint";
 import Wimart from "./WimaRT";
-import Management from "./Management";
 import Tracking from "./Tracking";
 import Dotnet from "./Dotnet";
 import Websystem from "./Websystem";
@@ -17,6 +16,11 @@ import Policy from "./Policy";
 
 import Footer from "../components/Footer";
 import Hrms from "./Hrms";
+import Batch from "./Batch Processor";
+import Billing from "./Billing";
+import Inventory from "./Inventory";
+import ERP from "./ERP";
+import Automation from "./Automation";
 const Layout = () => {
 
   return (
@@ -31,8 +35,12 @@ const Layout = () => {
             {/* <Route path="/hrms" element={<Dashboard/>}/> */}
             <Route path="/iPrint" element={<Iprint/>}/>
             <Route path="/wimaRT" element={<Wimart/>}/>
-            <Route path="/management" element={<Management/>}/>
+            <Route path="/batch" element={<Batch/>}/>
+            <Route path="/billing" element={<Billing/>}/>
             <Route path="/tracking" element={<Tracking/>}/>
+            <Route path="/inventory" element={<Inventory/>}/>
+            <Route path="/erp" element={<ERP/>}/>
+            <Route path="/automation" element={<Automation/>}/>
             <Route path="/dotnet" element={<Dotnet/>}/>
             <Route path="/websystem" element={<Websystem/>}/>
             <Route path="/mobile" element={<Mobile/>}/>

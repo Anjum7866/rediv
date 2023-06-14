@@ -5,20 +5,34 @@ const Hrms = () => {
   return (
     <>
     <div className="p-2 md:p-6 ">
-      <Title title={'Human Resource Management System'}/>
+      <Title title={'HRS'}/>
       <div>
-      <img src="/hrms.png"  className="w-full mt-4 " alt="" />
+      <img src="/hrms.png"  className="w-1/5 mt-4 " alt="" />
       </div>
       <div className='text-left'>
-        <h2 className='font-bold text-xl'>Human Resource Management System</h2>
-        <p> is a software solution that helps organizations streamline and automate various HR processes. Here are some key features of HRMS</p> 
-<h2 className='font-bold text-xl'>Features:</h2>  
-<p>Employee Database: HRMS allows organizations to maintain a centralized employee database, including personal information, employment history, performance records, and more.<br/>
+        <h2 className='font-bold text-xl'>PRODUCT NAME:</h2>
+        <h1 className='text-xl'> HRS</h1><br/>
+        <h2 className='font-bold text-xl'>PRODUCT DETAILS:</h2>
+        <p>
+       <b>EMPHRS </b>
+       <br/>
+       gives you Attendance and Salary Management solution suitable For your company.
+<br/>
+EMPLOYEE MANAGER
+<br/>
+• ATTENDANCE.
+<br/>
+• SALARY PROCESSING
+<br/>
+• SALARY REGISTER
+<br/>
+• Accounts
+<br/>
+• MIS AND REPORTS    
+    <br/>
 
-Attendance and Time Tracking: HRMS provides tools for tracking employee attendance, leaves, and managing timesheets. It helps automate attendance management and ensures accurate record-keeping.<br/>
-
-Payroll Management: HRMS simplifies payroll processing by automating calculations for salary, taxes, deductions, and benefits. It enables accurate and timely payroll generation</p>
-   </div>
+        </p>
+           </div>
 
 
 
@@ -26,7 +40,7 @@ Payroll Management: HRMS simplifies payroll processing by automating calculation
     
     
     </>
-  )
+)
 }
 
 export default Hrms
