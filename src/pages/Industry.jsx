@@ -10,8 +10,10 @@ const Industry = () => {
       <div className="stats flex md:flex-row flex-col">
           
       </div>
-
-
+      <div className='md:w-full'>
+<img src="/Industry.jpg" alt="Industry"/>
+</div>
+<div>Our industry services provide solution to industry specific challenges with specialized experience and khnowhow.Our industry consultants possess experiance in technology,financial servicess.'</div>
 
     </div>
     

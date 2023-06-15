@@ -21,6 +21,7 @@ import Billing from "./Billing";
 import Inventory from "./Inventory";
 import ERP from "./ERP";
 import Automation from "./Automation";
+import Dashboard from "./Dashboard";
 const Layout = () => {
 
   return (
@@ -49,7 +50,7 @@ const Layout = () => {
             <Route path="/sitemap" element={<Sitemap/>}/>
             <Route path="/policy" element={<Policy/>}/>
             <Route path="/contact" element={<Contact/>}/>
-            <Route path="/" element={<Hrms/>}/>
+            <Route path="/" element={<Dashboard/>}/>
           </Routes>
           
         </div>

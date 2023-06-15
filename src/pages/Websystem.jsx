@@ -8,7 +8,9 @@ const Websystem = () => {
       <Title title={'Web System Development'}/>
 
       <div className="stats flex md:flex-row flex-col">
-          
+        <img src="" />
+      New generation websites by new generation developers. 
+For new generation entrepreneurs..
       </div>
 
 
