@@ -82,15 +82,17 @@ const Navbar = () => {
           </NavLink>
           <h4 className=" text-left font-bold text-xl text-white  mt-5">Connect</h4>
 <div class="flex">
-  <a href="https://www.facebook.com/Redivivus-Technologies-Private-LimitedPune-1652894798268717/">
-  <img  alt="social"src="/fb.png" className="w-1/2" />
-  </a>
   <a href="https://twitter.com/search?f=tweets&q=redivivus%20technologies%20private%20limited&src=typd">
   <img  alt="social"src="/twitter.png" className="w-full" />        
   </a>
+  <a href="https://www.facebook.com/Redivivus-Technologies-Private-LimitedPune-1652894798268717/">
+  <img  alt="social"src="/fb.png" className="w-1/2" />
+  </a>
+  
   <a href="https://www.linkedin.com/company/redivivus-technologies-private-limited">
   <img alt="social"src="/linkedin.png" className="w-1/2" />
   </a>
+  
 
           
 </div>

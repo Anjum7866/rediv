@@ -54,7 +54,9 @@ const Layout = () => {
           </Routes>
           
         </div>
+        {/* <Marquee/> */}
       </div>
+     
     <div className="maincomponent w-full ">
         <Footer/>
           </div>
