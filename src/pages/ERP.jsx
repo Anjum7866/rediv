@@ -6,9 +6,11 @@ const ERP = () => {
     <>
     <div className="p-2 md:p-6 ">
       <Title title={'REOSYS-Complete ERP solution'}/>
-      <div>
-      <img src="/ERP.png"  className="w-1/5 mt-4 " alt="" />
-      </div>
+      <img
+        src="/ERP.png"
+        className="w-4/8 mt-4 mx-auto border-4 border-gray-400 rounded-lg "
+        alt=""
+      />
       <div className='text-left'>
         <h2 className='font-bold text-xl'>PRODUCT NAME:</h2>
         <h1 className='text-xl'>REOSYS-Complete ERP solution</h1><br/>
