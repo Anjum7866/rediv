@@ -18,7 +18,7 @@ const Iprint = () => {
       <div className='text-left'>
         <h2 className='font-bold text-xl'>PRODUCT NAME:</h2>
         <h1 className='text-xl'> iPrint</h1><br/>
-        <h2 className='font-bold font-custom text-xl'>PRODUCT DETAILS:</h2>
+        <h2 className='font-bold font-family-Manrope, sans-serif text-xl'>PRODUCT DETAILS:</h2>
         <p>
         Intelligent Industrial Printing System– This system provides automation for industrial printers (CIJ/TIJ/Laser/TTO/Thermal/DT/Etc)connected to centralized system with ERP/SAP integration inbackend.With this, usercan communicate with any printer using various modes (RS232/RS485/RJ45/Ethernet/ Etc).Our system is running with more than 25 printer OEM models 
         </p>
